@@ -981,6 +981,15 @@ The visual should work at different Power BI visual container sizes without assu
 
 ---
 
+## Post-Handover Updates
+
+Since receiving the project, the following setup tasks were completed:
+1. **Source Control Configuration:** Created a `.gitignore` file to exclude build artifacts (`dist/`, `.tmp/`, `*.pbiviz`) and dependencies (`node_modules/`) from version control.
+2. **Security Audit:** Verified that no personal details, API keys, passwords, or secrets are exposed in the project files (e.g., `pbiviz.json`, `package.json`, source code).
+3. **Repository Initialization:** Initialized a local Git repository, committed the initial state, and pushed it to the public GitHub repository at [mekanklichov/Date-Between-Visual](https://github.com/mekanklichov/Date-Between-Visual).
+
+---
+
 ## Immediate Next Step
 
 The project is not finished yet.
