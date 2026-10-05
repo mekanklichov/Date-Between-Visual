@@ -1,0 +1,16 @@
+{
+  "name": "powerbi-year-range-filter",
+  "version": "1.0.0",
+  "scripts": {
+    "package": "pbiviz package",
+    "start": "pbiviz start"
+  },
+  "devDependencies": {
+    "powerbi-visuals-api": "~5.11.0",
+    "powerbi-visuals-tools": "^7.2.1",
+    "typescript": "^5.4.0"
+  },
+  "dependencies": {
+    "powerbi-visuals-utils-formattingmodel": "^7.1.0"
+  }
+}

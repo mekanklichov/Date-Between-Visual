@@ -1,0 +1,25 @@
+{
+  "visual": {
+    "name": "YearRangeFilter",
+    "displayName": "Year Range Filter",
+    "guid": "YearRangeFilter7A3B6C1D9E2F4A8B91C5D7E3F0A6B2C4",
+    "visualClassName": "Visual",
+    "version": "1.0.0.0",
+    "description": "A compact two-dropdown year range filter that applies an Advanced Filter to Dim_Date[Year].",
+    "supportUrl": "https://learn.microsoft.com/power-bi/developer/visuals/",
+    "gitHubUrl": ""
+  },
+  "apiVersion": "5.11.0",
+  "author": {
+    "name": "Custom Visual",
+    "email": "support@example.com"
+  },
+  "assets": {
+    "icon": "assets/icon.png"
+  },
+  "externalJS": [],
+  "style": "style/visual.less",
+  "capabilities": "capabilities.json",
+  "dependencies": null,
+  "stringResources": []
+}

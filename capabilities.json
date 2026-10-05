@@ -1,0 +1,50 @@
+{
+  "privileges": [],
+  "dataRoles": [
+    {
+      "displayName": "Year",
+      "name": "year",
+      "kind": "Grouping"
+    }
+  ],
+  "dataViewMappings": [
+    {
+      "categorical": {
+        "categories": {
+          "for": {
+            "in": "year"
+          },
+          "dataReductionAlgorithm": {
+            "top": {}
+          }
+        }
+      }
+    }
+  ],
+  "objects": {
+    "yearRange": {
+      "properties": {
+        "textColor": {
+          "type": {
+            "fill": {
+              "solid": {
+                "color": true
+              }
+            }
+          }
+        },
+        "fontSize": {
+          "type": {
+            "numeric": true
+          }
+        },
+        "borderRadius": {
+          "type": {
+            "numeric": true
+          }
+        }
+      }
+    }
+  },
+  "supportsSynchronizingFilterState": true
+}
